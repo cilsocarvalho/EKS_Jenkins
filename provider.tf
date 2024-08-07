@@ -9,6 +9,6 @@ terraform {
     bucket         = "access-logs-alb-s3-cls301023"
     key            = "eks.terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform-state-lock-dynamodb"
+    
   }
 }
